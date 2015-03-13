@@ -1,0 +1,181 @@
+*{ 
+   margin:0px; 
+   padding:0px; 
+}
+body{
+     background-color:#F7F7F7;
+}
+header{
+       background:#003869 url('../img/bg-header.jpg') 0 0 repeat-x;
+       border-top:1px solid #0080FF;
+       border-bottom:1px solid #EEEEEE;
+       box-shadow: 0px 4px 10px 8px #808080;
+       height:50px;
+       position:fixed;
+       top:0;
+       right:0;
+       left:0;
+}
+#pageTitle{
+           text-align:center;
+           border-radius:10px;
+           background-color:#FFFFFF;
+           box-shadow:inset 0px 0px 6px 2px #808080;
+           margin-left:150px;
+           margin-right:20px;
+           margin-top:10px;
+           font-size:14px;
+           
+}
+#CSS3Img{ 
+          float:left;
+          margin-top:-50px;
+          margin-left:30px;
+}
+nav{
+    float:left;
+    padding:20px 10px 20px 10px;
+    width:130px;
+    background-color:#00305A;
+    border-radius:0px 10px 10px 0px;
+    box-shadow:inset 0px 0px 6px 2px #000000;
+}
+
+/*Nav Section*/
+#subNav1{ 
+        background-color:#2B5689;
+        border-left:10px solid #41B7FE;
+        border-right:10px solid #2B5689;
+        border-radius:5px 5px 5px 5px;
+        transition:all 0.4s ease-in-out;
+        margin-bottom:10px;
+}
+#subNav1:hover{ 
+          border-left:10px solid #1BEFF6;
+          border-right:10px solid #1BEFF6;
+}
+#subNav2{ 
+        background-color:#2B5689;
+        border-left:10px solid #41B7FE;
+        border-right:10px solid #2B5689;
+        border-radius:5px 5px 5px 5px;
+        transition:all 0.4s ease-in-out;
+        margin-bottom:10px;
+}
+#subNav2:hover{ 
+          border-left:10px solid #1BEFF6;
+          border-right:10px solid #1BEFF6;
+}
+#subNav3{ 
+        background-color:#2B5689;
+        border-left:10px solid #41B7FE;
+        border-right:10px solid #2B5689;
+        border-radius:5px 5px 5px 5px;
+        transition:all 0.4s ease-in-out;
+        margin-bottom:10px;
+}
+#subNav3:hover{ 
+          border-left:10px solid #1BEFF6;
+          border-right:10px solid #1BEFF6;
+}
+#subNav4{ 
+        background-color:#2B5689;
+        border-left:10px solid #41B7FE;
+        border-right:10px solid #2B5689;
+        border-radius:5px 5px 5px 5px;
+        transition:all 0.4s ease-in-out;
+        margin-bottom:10px;
+}
+#subNav4:hover{ 
+          border-left:10px solid #1BEFF6;
+          border-right:10px solid #1BEFF6;
+}
+li{ 
+    list-style:none;
+    color:#FFFFFF;
+    transition: all 0.08s ease-in-out;
+    
+}
+li:hover{
+          background-color:#1BEFF2;
+}
+a{ color:#FFFFFF;
+   margin-left:10px;
+   font-size:20px;}
+a:link { text-decoration:none;
+         color:#FFFFFF;
+}
+a:visited { text-decoration:none;
+            color:#FFFFFF;
+}
+a:hover { text-decoration:none;
+          color:#000000;
+}
+a:active {text-decoration:none;}
+
+/*End Nav Section*/
+#container{ 
+            height:auto; 
+            margin-top:70px;
+            margin-bottom:50px;
+}
+section{
+        margin-left:160px;
+        border:1px solid #00366C;
+        border-radius:10px 0px 0px 10px;
+        box-shadow:inset 0px 0px 6px 2px #00366C;
+        padding:15px;
+}
+.leftSect{
+          border-right:15px solid 00366C;
+          
+}
+.rightSect{
+           
+}
+footer{
+       
+       height:250px;
+       background:#003869 url('../img/bg-footer.png') 0 0 repeat-x;
+       border-bottom:1px solid #0080FF;
+       border-top:1px solid #EEEEEE;
+       box-shadow: 0px -4px 10px 8px #808080;
+       color:#FFFFFF;
+       text-align:center;
+}
+.footerContainer{
+                 margin:0px auto;
+                 height:100%;
+                 width:1020px;
+                 display:block;
+}
+.footerBlock{
+         float:left;
+         width:230px;
+         margin-right:25px;
+         margin-top:10px;
+                  
+}
+.footerHeading{
+               border-bottom: 1px solid #3189B4;
+               text-transform: uppercase;
+               display:block;
+               font-size:14px;
+               letter-spacing:.5px;
+
+}
+.textdepth {
+    display: block;
+    padding: 5px;
+    font: bold Arial, sans-serif;
+    position: relative;
+}
+
+.textdepth:before, .textdepth:after {
+    content: attr(title);
+    padding: 5px;
+    position: absolute;
+}
+
+.textdepth:before { top: 1px; left: 1px }
+.textdepth:after  { top: 2px; left: 2px }
